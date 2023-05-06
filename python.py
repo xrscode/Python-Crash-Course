@@ -62,3 +62,31 @@ tic_tac_toe = [
             ["O","X","O"], 
             ["O","O","X"]
 ]
+
+heights = [["Noelle", 61], ["Ali", 70], ["Sam", 67]]
+
+#Access the sublist at index 0, and then access the 1st index of that sublist. 
+noelles_height = heights[0][1] 
+print(noelles_height)
+
+#Your code below:
+class_name_test = [["Jenny", 90], ["Alexus", 85.5], ["Sam", 83], ["Ellie", 101.5]]
+print(class_name_test)
+
+sams_score = class_name_test[2][1]
+print(sams_score)
+
+ellies_score = class_name_test[-1][-1]
+print(ellies_score)
+
+
+# The list of Jenny is at index 0. The hobby is at index 1. 
+class_name_hobbies[0][1] = "Meditation"
+print(class_name_hobbies)
+
+customer_data = [["Ainsley", "Small", True], ["Ben", "Large", False], ["Chani", "Medium", True], ["Depak", "Medium", False]]
+print(customer_data)
+
+customer_data[2][2] = False
+
+customer_data[1].remove(False)
