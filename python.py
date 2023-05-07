@@ -90,3 +90,80 @@ print(customer_data)
 customer_data[2][2] = False
 
 customer_data[1].remove(False)
+
+store_line = ["Karla", "Maxium", "Martim", "Isabella"]
+store_line.insert(2, "Vikor")
+print(store_line) 
+
+cs_topics = ["Python", "Data Structures", "Balloon Making", "Algorithms", "Clowns 101"]
+removed_element = cs_topics.pop()
+print(cs_topics)
+print(removed_element)
+
+number_list = range(9)
+print(list(number_list))
+
+zero_to_seven = range(8)
+print(list(zero_to_seven))
+
+my_list = range(2, 9)
+print(list(my_list))
+
+my_range2 = range(2, 9, 2)
+print(list(my_range2))
+
+my_range3 = range(1, 100, 10)
+print(list(my_range3))
+
+my_list = [1, 2, 3, 4, 5]
+ 
+print(len(my_list))
+
+letters = ["a", "b", "c", "d", "e", "f", "g"]
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+beginning = suitcase[0:2]
+print(beginning)
+
+# Your code below: 
+middle = suitcase[2:4]
+print(middle)
+
+fruits = ["apple", "cherry", "pineapple", "orange", "mango"]
+fruits[:n]
+
+fruits[:-n]
+
+fruits[4:]
+fruits[:-1]
+
+list[first:last]
+
+suitcase = ["shirt", "shirt", "pants", "pants", "pajamas", "books"]
+
+# Your code below: 
+last_two_elements = suitcase[-2:]
+print(last_two_elements)
+
+slice_off_last_three = suitcase[:-3]
+print(slice_off_last_three)
+
+letters = ["m", "i", "s", "s", "i", "s", "s", "i", "p", "p", "i"]
+num_i = letters.count("i")
+print(num_i)
+
+number_collection = [[100, 200], [100, 200], [475, 29], [34, 34]]
+num_pairs = number_collection.count([100, 200])
+print(num_pairs)
+
+names = ["Xander", "Buffy", "Angel", "Willow", "Giles"]
+names.sort()
+print(names)
+
+names.sort(reverse=True)
+print(names)
+
+names = ["Xander", "Buffy", "Angel", "Willow", "Giles"]
+sorted_names = sorted(names)
+print(sorted_names)
