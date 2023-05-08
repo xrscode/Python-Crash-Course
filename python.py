@@ -244,23 +244,32 @@
 #   credit -= spend
 # print('credit remaining:', credit)
 
-import random 
-credit = 25
-while credit > 0:
-  print('credit remaining:', credit)
-  amount = random.randint(1, 6)
-  spend = min(amount, credit)
-  print('credit spent:', spend)
-  credit -= spend
-print('credit remaining:', credit)
+# import random 
+# credit = 25
+# while credit > 0:
+#   print('credit remaining:', credit)
+#   amount = random.randint(1, 6)
+#   spend = min(amount, credit)
+#   print('credit spent:', spend)
+#   credit -= spend
+# print('credit remaining:', credit)
 
-my_list = [5, 10, -2, 8, 20]
-desired_list = [10, 8, 20]
+# my_list = [5, 10, -2, 8, 20]
+# desired_list = [10, 8, 20]
 
-[i for i in my_list i > 5]
+# [i for i in my_list i > 5]
 
-for i in range(3):
-  print(i)
+# for i in range(3):
+#   print(i)
 
-for i in range(3):
-  print(5)
+# for i in range(3):
+#   print(5)
+
+hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
+new_prices = [25, 20, 35, 15, 15, 30, 45, 30]
+
+cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if new_prices[i] < 30]
+
+print(cuts_under_30)
+
+print(range(len(hairstyles)))
