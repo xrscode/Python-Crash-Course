@@ -40,3 +40,20 @@ def trip_welcome(origin, destination):
   print("Welcome to Tripcademy")
   print("Looks like you are traveling from " + origin)
   print("And you are heading to " + destination)
+
+def calculate_taxi_price(miles_to_travel, rate, discount):
+  print(miles_to_travel * rate - discount )
+
+# 100 is miles_to_travel
+# 10 is rate
+# 5 is discount
+calculate_taxi_price(100, 10, 5)
+
+def calculate_taxi_price(miles_to_travel, rate, discount = 10):
+  print(miles_to_travel * rate - discount )
+
+# Using the default value of 10 for discount.
+calculate_taxi_price(10, 0.5)
+ 
+# Overwriting the default value of 10 with 20
+calculate_taxi_price(10, 0.5, 20)
