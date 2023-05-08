@@ -114,44 +114,153 @@
 # doubled = [num * 2 for num in numbers]
 # print(doubled)
 
-numbers = [2, -1, 79, 33, -45]
-only_negative_doubled = []
+# numbers = [2, -1, 79, 33, -45]
+# only_negative_doubled = []
  
-for num in numbers:
-  if num < 0: 
-    only_negative_doubled.append(num * 2)
+# for num in numbers:
+#   if num < 0: 
+#     only_negative_doubled.append(num * 2)
  
-print(only_negative_doubled) 
+# print(only_negative_doubled) 
 
-numbers = [2, -1, 79, 33, -45]
-negative_doubled = [num * 2 for num in numbers if num < 0]
-print(negative_doubled)
+# numbers = [2, -1, 79, 33, -45]
+# negative_doubled = [num * 2 for num in numbers if num < 0]
+# print(negative_doubled)
 
-numbers = [2, -1, 79, 33, -45]
-doubled = [num * 2 if num < 0 else num * 3 for num in numbers ]
-print(doubled)
+# numbers = [2, -1, 79, 33, -45]
+# doubled = [num * 2 if num < 0 else num * 3 for num in numbers ]
+# print(doubled)
 
-numbers = [2, -1, 79, 33, -45]
+# numbers = [2, -1, 79, 33, -45]
  
-no_if   = [num * 2 for num in numbers]
-if_only = [num * 2 for num in numbers if num < 0]
-if_else = [num * 2 if num < 0 else num * 3 for num in numbers]
+# no_if   = [num * 2 for num in numbers]
+# if_only = [num * 2 for num in numbers if num < 0]
+# if_else = [num * 2 if num < 0 else num * 3 for num in numbers]
 
-heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+# heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
 
-can_ride_coaster = [num for num in heights if num > 161]
+# can_ride_coaster = [num for num in heights if num > 161]
 
 
-# Your code below:
-single_digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-squares = []
+# # Your code below:
+# single_digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# squares = []
 
-for i in single_digits:
+# for i in single_digits:
+#   print(i)
+#   squares.append(i**2)
+
+# print(squares)
+
+# cubes = [i**3 for i in single_digits]
+
+# print(cubes)
+
+# words = ['quite', 'nice', 'really']
+# for word in words:
+#     for letter in word:
+#         if not letter in 'aeiou':
+#           print(letter, end='*')
+#     print()
+
+
+# for i in range(3):
+#   print(5, end=' ')
+
+# for i in range(45):
+#   if i >=13:    
+#     break
+#   print(i, end='')
+
+#   words = ['let', 'us', 'eat', 'some', 'rye', 'bread']
+# ywords = []
+ 
+# for word in words:
+#   if 'y' in word:
+#     ywords.append(word)
+    
+# print(ywords)
+
+# groups = [["Alice", "Bob"], ["Carl", "David", "Elise"], ["Francis", "Georgia"]]
+ 
+# i = 1
+# for group in groups:
+#   print("Group " + str(i) + " members:",)
+#   i = i + 1
+ 
+#   for name in group:
+#     print(name, end=' ')
+
+# names = ["Zara", "Saba", "Gigi", "Brea", "Abby", "Loki"]
+# short_list = [name for name in names if name[3] == "a"]
+# print(short_list)
+
+# for name in names:
+#   if name[3] == "a":
+#     print(name, end=' ')
+
+# [i-1 for i in range(5)]
+
+# numbers = [1, 1, 2, 3]
+# for number in numbers:
+#   if number % 2 == 0:
+#     continue
+#   print(number)
+
+# list_of_numbers = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+# list_of_numbers = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+# print(list_of_numbers[2])
+# index = 0
+# while 5 > index:
+#   print(list_of_numbers[index])
+#   index = index + 1
+
+
+# list_of_accessories = ["Signpost", "Sculpture", "Gauge", "Feeder"]
+# for item in list_of_accessories:
+#   if item == "Gauge":
+#     continue
+#   print(item)
+
+# exams = ["Physics", "History", "Linear Algebra"]
+# for exam in exams:
+#   if exam == "History":
+#     break
+#   print(exam)
+# print("I finished!")
+
+# prices = [15.0, 10.0, 7.5, 50.0]
+# new_prices = [price * 0.8 for price in prices]
+# print(new_prices)
+
+# import random 
+# credit = 25
+# while credit > 0:
+#   print('credit remaining:', credit)
+#   amount = random.randint(1, 6)
+#   spend = min(amount, credit)
+#   print('credit spent:', spend)
+#   credit -= spend
+# print('credit remaining:', credit)
+
+import random 
+credit = 25
+while credit > 0:
+  print('credit remaining:', credit)
+  amount = random.randint(1, 6)
+  spend = min(amount, credit)
+  print('credit spent:', spend)
+  credit -= spend
+print('credit remaining:', credit)
+
+my_list = [5, 10, -2, 8, 20]
+desired_list = [10, 8, 20]
+
+[i for i in my_list i > 5]
+
+for i in range(3):
   print(i)
-  squares.append(i**2)
 
-print(squares)
-
-cubes = [i**3 for i in single_digits]
-
-print(cubes)
+for i in range(3):
+  print(5)
