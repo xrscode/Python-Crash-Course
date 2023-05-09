@@ -312,11 +312,41 @@
 #         newlist.append(my_list[i])
 #     return newlist
 
-def exponents(bases, powers):
-  new_list = []
-  for base in bases:
-    for power in powers:
-      new_list.append(base ** power)
-  return new_list
-print(exponents([2, 3, 4], [1, 2, 3]))
+# def exponents(bases, powers):
+#   new_list = []
+#   for base in bases:
+#     for power in powers:
+#       new_list.append(base ** power)
+#   return new_list
+# print(exponents([2, 3, 4], [1, 2, 3]))
+
+# def larger_sum(lst1, lst2):
+#     sum1 = 0
+#     sum2 = 0
+#     for i in lst1:
+#         sum1 += i
+#     for i in lst2:
+#         sum2 += i
+#     if sum1 >= sum2:
+#         return lst1
+#     else:
+#         return lst2
+
+# def over_nine_thousand(lst):
+#   sum = 0
+#   for number in lst:
+#     sum += number
+#     if (sum > 9000):
+#       break
+#   return sum
+# print(over_nine_thousand([8000, 900, 120, 5000]))
+# print(over_nine_thousand([8000, 900]))
+
+# def max_num(nums):
+#     lrg = nums[0]
+#     for number in nums:
+#         if number > lrg:
+#             lrg = number
+#     return lrg
+# print(max_num([50, -10, 0, 75, 20]))
 
