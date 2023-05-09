@@ -274,3 +274,34 @@
 
 # print(range(len(hairstyles)))
 
+# def divisible_by_ten(nums):
+#   yes = 0
+#   for i in nums:
+#     if i % 10 == 0:
+#       yes += 1
+#   return yes
+
+# def add_greetings(names):
+#     list = []
+#     list.append("Hello, " + names)
+#     return list
+
+# def add_greetings(names):
+#     list = []
+#     for i in names:
+#       list.append("Hello, " + str(i))
+#     return list
+
+# def delete_starting_evens(my_list):
+#   while (len(my_list) > 0 and my_list[0] % 2 == 0):
+#     my_list = my_list[1:]
+#   return my_list
+
+# print(delete_starting_evens([4, 8, 10, 11, 12, 15]))
+
+# print(8 % 2 == 0)
+
+def dog(my_list):
+    return my_list[3:5]
+
+print(dog([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,]))
