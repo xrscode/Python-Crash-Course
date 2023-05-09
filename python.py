@@ -36,13 +36,13 @@
 #   def my_function(parameter1, parameter2, parameter3):
 #     # Some code
 
-def trip_welcome(origin, destination):
-  print("Welcome to Tripcademy")
-  print("Looks like you are traveling from " + origin)
-  print("And you are heading to " + destination)
+# def trip_welcome(origin, destination):
+#   print("Welcome to Tripcademy")
+#   print("Looks like you are traveling from " + origin)
+#   print("And you are heading to " + destination)
 
-def calculate_taxi_price(miles_to_travel, rate, discount):
-  print(miles_to_travel * rate - discount )
+# def calculate_taxi_price(miles_to_travel, rate, discount):
+#   print(miles_to_travel * rate - discount )
 
 # 100 is miles_to_travel
 # 10 is rate
@@ -58,61 +58,98 @@ def calculate_taxi_price(miles_to_travel, rate, discount):
 # # Overwriting the default value of 10 with 20
 # calculate_taxi_price(10, 0.5, 20)
 # Write your code below:
-max_price = max(9.75, 15.50, 5.99, 2.00)
-print(max_price)
+# max_price = max(9.75, 15.50, 5.99, 2.00)
+# print(max_price)
 
-min_price = min(9.75, 15.50, 5.99, 2.00)
-print(min_price)
+# min_price = min(9.75, 15.50, 5.99, 2.00)
+# print(min_price)
 
 
-rounded_price = round(tshirt_price, 1)
-print(rounded_price)
+# rounded_price = round(tshirt_price, 1)
+# print(rounded_price)
 
-rounded_price = round(tshirt_price, 1)
-print(rounded_price)
+# rounded_price = round(tshirt_price, 1)
+# print(rounded_price)
 
-def trip_welcome(destination):
-  print(" Looks like you're going to the " + destination + " today. ")
+# def trip_welcome(destination):
+#   print(" Looks like you're going to the " + destination + " today. ")
 
-budget = 1000
+# budget = 1000
  
-# Here we are using a default value for our parameter of `destination` 
-def trip_welcome(destination="California"):
-    print(" Looks like you're going to " + destination)
-    print(" Your budget for this trip is " + str(budget))
+# # Here we are using a default value for our parameter of `destination` 
+# def trip_welcome(destination="California"):
+#     print(" Looks like you're going to " + destination)
+#     print(" Your budget for this trip is " + str(budget))
  
-print(budget)
-trip_welcome()
+# print(budget)
+# trip_welcome()
 
-def calculate_exchange_usd(us_dollars, exchange_rate):
-  return us_dollars * exchange_rate
+# def calculate_exchange_usd(us_dollars, exchange_rate):
+#   return us_dollars * exchange_rate
  
-new_zealand_exchange = calculate_exchange_usd(100, 1.4)
+# new_zealand_exchange = calculate_exchange_usd(100, 1.4)
  
-print("100 dollars in US currency would give you " + str(new_zealand_exchange) + " New Zealand dollars")
+# print("100 dollars in US currency would give you " + str(new_zealand_exchange) + " New Zealand dollars")
 
-weather_data = ['Sunny', 'Sunny', 'Cloudy', 'Raining', 'Snowing']
+# weather_data = ['Sunny', 'Sunny', 'Cloudy', 'Raining', 'Snowing']
  
-def threeday_weather_report(weather):
-  first_day = " Tomorrow the weather will be " + weather[0]
-  second_day = " The following day it will be " + weather[1]
-  third_day = " Two days from now it will be " + weather[2]
-  return first_day, second_day, third_day
+# def threeday_weather_report(weather):
+#   first_day = " Tomorrow the weather will be " + weather[0]
+#   second_day = " The following day it will be " + weather[1]
+#   third_day = " Two days from now it will be " + weather[2]
+#   return first_day, second_day, third_day
 
-monday, tuesday, wednesday = threeday_weather_report(weather_data)
+# monday, tuesday, wednesday = threeday_weather_report(weather_data)
  
-print(monday)
-print(tuesday)
-print(wednesday)
+# print(monday)
+# print(tuesday)
+# print(wednesday)
 
-def top_tourist_locations_italy():
-  first = "Rome"
-  second = "Venice"
-  third = "Florence"
-  return first, second, third 
+# def top_tourist_locations_italy():
+#   first = "Rome"
+#   second = "Venice"
+#   third = "Florence"
+#   return first, second, third 
   
-most_popular1, most_popular2, most_popular3 = top_tourist_locations_italy()
+# most_popular1, most_popular2, most_popular3 = top_tourist_locations_italy()
 
-print(most_popular1)
-print(most_popular2)
-print(most_popular3)
+# print(most_popular1)
+# print(most_popular2)
+# print(most_popular3)
+
+# def tenth_power(num):
+#     return num**10
+
+# def square_root(num):
+#     return num**0.5
+
+# def win_percentage(wins, losses):
+#   total_games = wins + losses
+#   ratio_won = wins / total_games
+#   return ratio_won * 100
+
+# def average(num1, num2):
+#     return (num1 + num2) * 0.5
+
+# def remainder(num1, num2):
+#     return (num1 * 2) % (num2 * 0.5)
+
+# def first_three_multiples(num):
+#     print((num * 1), (num * 2), (num * 3))
+#     return num * 3
+# def tip(total, percentage):
+#     return (total * 0.01) * (percentage)
+
+# def introduction(first_name, last_name):
+#     return(last_name + ", " + first_name + " " + last_name)
+
+# introduction('Dylan', 'Dog')
+
+# def dog_years(name, age):
+#     return (name + ", you are " + str(age*7) + " years old in dog years")
+
+def lots_of_math(a, b, c, d):
+    print(str(a+b))
+    print(str(c-d))
+    print(str((a+b)*(c-d)))
+    return (a+b)*(c-d) % a
