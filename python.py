@@ -265,11 +265,12 @@
 # for i in range(3):
 #   print(5)
 
-hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
-new_prices = [25, 20, 35, 15, 15, 30, 45, 30]
+# hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk", "flattop"]
+# new_prices = [25, 20, 35, 15, 15, 30, 45, 30]
 
-cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if new_prices[i] < 30]
+# cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles)) if new_prices[i] < 30]
 
-print(cuts_under_30)
+# print(cuts_under_30)
 
-print(range(len(hairstyles)))
+# print(range(len(hairstyles)))
+
