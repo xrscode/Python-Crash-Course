@@ -301,7 +301,22 @@
 
 # print(8 % 2 == 0)
 
-def dog(my_list):
-    return my_list[3:5]
+# def dog(my_list):
+#     return my_list[3:9]
 
-print(dog([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,]))
+# print(dog([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,]))
+
+# def odd_indices(my_list):
+#     newlist = []
+#     for i in range(1, len(my_list), 2):
+#         newlist.append(my_list[i])
+#     return newlist
+
+def exponents(bases, powers):
+  new_list = []
+  for base in bases:
+    for power in powers:
+      new_list.append(base ** power)
+  return new_list
+print(exponents([2, 3, 4], [1, 2, 3]))
+
