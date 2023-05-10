@@ -52,3 +52,51 @@ key_to_check = "Landmark 81"
  
 if key_to_check in building_heights:
   print(building_heights["Landmark 81"])
+  
+
+building_heights = {"Burj Khalifa": 828, "Shanghai Tower": 632, "Abraj Al Bait": 601, "Ping An": 599, "Lotte World Tower": 554.5, "One World Trade": 541.3}
+ 
+#this line will return 632:
+building_heights.get("Shanghai Tower")
+ 
+#this line will return None:
+building_heights.get("My House")
+
+>>> building_heights.get('Shanghai Tower', 0)
+632
+>>> building_heights.get('Mt Olympus', 0)
+0
+>>> building_heights.get('Kilimanjaro', 'No Value')
+'No Value'
+
+>>> raffle.pop(320291, "No Prize")
+"Gift Basket"
+>>> raffle
+{223842: "Teddy Bear", 872921: "Concert Tickets", 412123: "Necklace", 298787: "Pasta Maker"}
+>>> raffle.pop(100000, "No Prize")
+"No Prize"
+>>> raffle
+{223842: "Teddy Bear", 872921: "Concert Tickets", 412123: "Necklace", 298787: "Pasta Maker"}
+>>> raffle.pop(872921, "No Prize")
+"Concert Tickets"
+>>> raffle
+{223842: "Teddy Bear", 412123: "Necklace", 298787: "Pasta Maker"}
+
+test_scores = {"Grace":[80, 72, 90], "Jeffrey":[88, 68, 81], "Sylvia":[80, 82, 84], "Pedro":[98, 96, 95], "Martin":[78, 80, 78], "Dina":[64, 60, 75]}
+>>> list(test_scores)
+["Grace", "Jeffrey", "Sylvia", "Pedro", "Martin", "Dina"]
+
+for student in test_scores.keys():
+  print(student)
+
+test_scores = {"Grace":[80, 72, 90], "Jeffrey":[88, 68, 81], "Sylvia":[80, 82, 84], "Pedro":[98, 96, 95], "Martin":[78, 80, 78], "Dina":[64, 60, 75]}
+ 
+for score_list in test_scores.values():
+  print(score_list)
+
+list(test_scores.values())
+
+biggest_brands = {"Apple": 184, "Google": 141.7, "Microsoft": 80, "Coca-Cola": 69.7, "Amazon": 64.8}
+ 
+for company, value in biggest_brands.items():
+  print(company + " has a value of " + str(value) + " billion dollars. ")
