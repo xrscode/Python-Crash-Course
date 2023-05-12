@@ -59,26 +59,37 @@
 
 
 # Symbols Challenge
-def SimpleSymbols(strParam):
-    if strParam[0].isalpha() or strParam[-1].isalpha():
-        return 'false'  # First or last character is a letter, not surrounded by '+'
+# def SimpleSymbols(strParam):
+#     if strParam[0].isalpha() or strParam[-1].isalpha():
+#         return 'false'  # First or last character is a letter, not surrounded by '+'
 
-    for i in range(1, len(strParam) - 1):
-        if strParam[i].isalpha():
-            if strParam[i - 1] != '+' or strParam[i + 1] != '+':
-                return 'false'  # Letter is not surrounded by '+'
+#     for i in range(1, len(strParam) - 1):
+#         if strParam[i].isalpha():
+#             if strParam[i - 1] != '+' or strParam[i + 1] != '+':
+#                 return 'false'  # Letter is not surrounded by '+'
 
-    return 'true'  # All letters are surrounded by '+'
+#     return 'true'  # All letters are surrounded by '+'
 
-# Example usage:
-input_str = "+d+=3=+s+"
-result = SimpleSymbols(input_str)
-print(result)  # Output: "true"
+# # Example usage:
+# input_str = "+d+=3=+s+"
+# result = SimpleSymbols(input_str)
+# print(result)  # Output: "true"
 
-input_str = "f++d+"
-result = SimpleSymbols(input_str)
-print(result)  # Output: "false"
+# input_str = "f++d+"
+# result = SimpleSymbols(input_str)
+# print(result)  # Output: "false"
 
-SimpleSymbols('+a+b++++c+')
+# SimpleSymbols('+a+b++++c+')
 
-
+#Power of 2
+# import math
+# def pow_of_two(num):
+#     base = math.log(num, 2)
+#     new_num = math.pow(2, base)
+#     if(base.is_integer()):
+#         print(str(base) + " is an integer of " + str(num))
+#         print("Because 2, to the power of " + str(base) + " is equal to " + str(num))
+#     else:
+#         print(str(num) + " is not an integer of " + str(num))
+#         print("Because the exponent of 2 would have to be: " + str(base))
+# pow_of_two(124)
