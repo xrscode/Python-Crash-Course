@@ -93,3 +93,63 @@
 #         print(str(num) + " is not an integer of " + str(num))
 #         print("Because the exponent of 2 would have to be: " + str(base))
 # pow_of_two(124)
+
+# def ArithGeo(arr):
+#     is_arithmetic = False
+#     is_geometric = False
+#     is_neither = False
+#     for i in range(len(arr) - 2):
+#         if(arr[i + 1] - arr[i]) == (arr[i+2] - arr[i+1]) in range(arr[0], arr[len(arr)-2], 1):
+#             is_arithmetic = True
+#         elif(arr[i+1] / arr[i]) == (arr[i+2] / arr[i+1]) in range(arr[0], arr[len(arr)-2], 1):
+#             is_geometric = True
+#         else:
+#             is_neither = True
+
+#     if(is_arithmetic == True):
+#       return 'Arithmetic'
+#     elif(is_geometric == True):
+#       return 'Geometric'
+#     elif(is_neither == True):
+#       return '-1'
+
+# print(ArithGeo([1,2,3,4,5,10,20]))
+# ArithGeo([2, 4, 16, 24])
+
+# def ArrayAdditionI(arr):
+#   arr_sorted = sorted(arr)
+#   lrgest = arr_sorted[-1]
+#   return lrgest
+
+# print(ArrayAdditionI([5, 7, 16, 1, 2]))
+
+# def LongestWord(sen):
+#   new_sentence = ''
+#   longest_word = ''
+#   for char in sen:
+#     if (char.isalpha() or char.isspace() or char.isnumeric()):
+#       new_sentence += char
+#   cleaned_split = new_sentence.split()
+#   print(cleaned_split)
+#   for word in cleaned_split:
+#    if(len(word) > len(longest_word)):
+#      longest_word = word
+#    elif(len(word) == len(longest_word)):
+#       continue
+#   return longest_word
+    
+
+# LongestWord("I love dogs")
+
+  
+def QuestionsMarks(strParam):
+  for i in strParam:
+    if 
+    
+
+
+
+  
+
+# QuestionsMarks("aa6?9")
+QuestionsMarks("acc?7??sss?3rr1??????5")
